@@ -1,0 +1,63 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background: url(https://res.cloudinary.com/dzgeqcksj/image/upload/b_rgb:f6f4fb,co_rgb:ffffff,o_5,q_100/v1607542366/IMG_3988_nkzixl.jpg);
+}
+
+.wireframes {
+  /* width: 100vh; */
+  /* height: fit-content; */
+  /* margin: auto; */
+  padding: 20px;
+  top: auto;
+  left: 130px;
+  position: absolute;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.home {
+  padding: 15vh;
+  margin: auto;
+  border: 0.4mm  black;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.aboutme {
+  text-align: center;
+  padding: 20px;
+  border: 1px solid black;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -20%);
+}
+
+.paragraph {
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  text-align: left;
+  padding: 20px;
+}
+
+.languages {
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  list-style:disc;
+  /* padding: 20px; */
+  display: flex;
+  align-content: center;
+  /* flex-direction: column; */
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.projects {
+  font-family: 'Montserrat', sans-serif;
+  padding: 20px;;
+}
+
+.contact {
+  font-family: 'Montserrat', sans-serif;
+}
